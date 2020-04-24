@@ -9796,6 +9796,14 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
+typeface-lobster@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-lobster/-/typeface-lobster-0.0.72.tgz#4036b3d0bcb1ff9f9fab2244886c461563fea784"
+
+typeface-open-sans@^0.0.75:
+  version "0.0.75"
+  resolved "https://registry.yarnpkg.com/typeface-open-sans/-/typeface-open-sans-0.0.75.tgz#20d0c330f14c0c40463c334adbedd6005389abe4"
+
 uglify-js@^3.1.4:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.7.1.tgz#35c7de17971a4aa7689cd2eae0a5b39bb838c0c5"
