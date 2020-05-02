@@ -3,9 +3,6 @@ import { Card, CardImg, CardText, CardBody, CardTitle, Breadcrumb, BreadcrumbIte
 import { Link } from 'react-router-dom';
 
 class CampsiteInfo extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   renderCampsite(campsite) {
     return (
@@ -43,6 +40,7 @@ class CampsiteInfo extends Component {
   }
 }
 
+
 function CampsiteInfo(props) {
   if (this.props.campsite) {
     return (
@@ -62,9 +60,10 @@ function CampsiteInfo(props) {
               <RenderComments comments={props.comments} />
           </div>
       </div>
-  );
+    );
   }
   return <div />;
 }
+
 
 export default CampsiteInfo;
