@@ -17,7 +17,7 @@ function RenderDirectoryItem({campsite}) {
 
 function Directory(props) {
 
-    const directory = this.props.campsites.map(campsite => {
+    const directory = props.campsites.map(campsite => {
         return (
             <div key={campsite.id} className="col-md-5 m-1">
                 <RenderDirectoryItem campsite={campsite} />
